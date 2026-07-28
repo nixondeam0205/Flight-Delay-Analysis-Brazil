@@ -1,0 +1,116 @@
+Quantos voos ocorreram em 2025?
+Qual companhia realizou mais voos?
+Qual companhia possui maior taxa de atraso?
+Quais aeroportos concentram mais atrasos?
+O horário influencia?
+O dia da semana influencia?
+Existe sazonalidade durante o ano?
+Conseguimos prever atrasos?
+
+
+Nosso roadmap
+Fase 1 — Preparação do ambiente ✅
+ Criar projeto
+ Criar ambiente virtual
+ Estrutura de pastas
+ Download da base ANAC
+Fase 2 — Limpeza dos dados ✅
+ Ler os 12 CSVs
+ Unificar
+ Remover coluna inútil
+ Filtrar voos realizados
+ Converter datas
+ Criar colunas de atraso
+Fase 3 — Engenharia de atributos 🟡
+ Atraso partida
+ Atraso chegada
+ Variável alvo (Atrasou)
+ Ano
+ Mês
+ Hora
+ Dia da semana
+Fase 4 — Análise Exploratória (EDA) 🔄
+
+Aqui vamos responder uma pergunta de negócio por vez.
+
+Panorama
+ Quantos voos ocorreram?
+ Qual o percentual de voos atrasados?
+Companhias
+ Quem realizou mais voos?
+ Quem possui maior taxa de atraso?
+ Quem possui maior atraso médio?
+Aeroportos
+ Aeroportos mais movimentados
+ Aeroportos com maior taxa de atraso
+ Aeroportos com maior atraso médio
+Tempo
+ Horário influencia?
+ Dia da semana influencia?
+ Existe sazonalidade?
+Relações
+ Atraso partida × chegada
+ Correlação
+Fase 5 — Machine Learning
+
+Responder:
+
+Conseguimos prever atrasos?
+
+Etapas:
+
+seleção de variáveis;
+separação em treino e teste;
+codificação das variáveis categóricas;
+treinamento de um modelo;
+avaliação com métricas e matriz de confusão.
+Fase 6 — Conclusões
+
+Responder objetivamente às perguntas iniciais:
+
+Quantos voos ocorreram?
+Qual companhia realizou mais voos?
+Qual companhia apresenta maior taxa de atraso?
+Quais aeroportos concentram mais atrasos?
+O horário influencia?
+O dia da semana influencia?
+Existe sazonalidade?
+O modelo consegue prever atrasos com bom desempenho?
+Fase 7 — Git e GitHub
+
+Aqui entraremos na parte de engenharia de software.
+
+ Criar .gitignore
+ Criar requirements.txt
+ Inicializar Git
+ Fazer commits organizados
+ Criar repositório no GitHub
+ Publicar o projeto
+Fase 8 — README
+
+Essa é uma das partes mais importantes para quem vai avaliar seu portfólio.
+
+Ele deve conter:
+
+Introdução
+Objetivo
+Fonte dos dados
+Tecnologias utilizadas
+Estrutura do projeto
+Metodologia
+Principais insights
+Gráficos
+Modelo de Machine Learning
+Como executar o projeto
+Próximos passos
+
+
+
+Minha sugestão de mudança
+
+Até agora nós estávamos construindo o notebook "de dentro para fora". A partir daqui, proponho mudar a abordagem:
+
+Finalizar a EDA completamente.
+Fazer o Machine Learning.
+Organizar o notebook como um relatório, com textos entre as análises.
+Só então cuidar do Git, GitHub e README.
